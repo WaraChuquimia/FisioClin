@@ -7,18 +7,17 @@
     "icon": "./assets/images/icon.png",
     "scheme": "fisioclin",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.fisioclin.app",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
     "web": {
@@ -38,7 +37,25 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "FisioClin usa la cámara para medir tus movimientos durante la sesión de rehabilitación."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "FisioClin usa tus fotos para que elijas tu foto de perfil.",
+          "cameraPermission": "FisioClin usa la cámara para medir tus movimientos y para tomar tu foto de perfil."
+        }
+      ],
+      "expo-font",
+      "expo-image",
+      "expo-status-bar",
+      "expo-web-browser",
+      "expo-video"
     ],
     "experiments": {
       "typedRoutes": true,

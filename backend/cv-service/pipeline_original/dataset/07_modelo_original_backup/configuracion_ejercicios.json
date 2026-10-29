@@ -1,0 +1,942 @@
+{
+  "version": "1.0",
+  "origen": "generado por artrosis_11_configuracion.py desde ficha_normalizada.csv y repeticiones.csv",
+  "aviso": "Las bandas y umbrales salen de las demostraciones del catalogo, no de pacientes. Sirven para detectar y describir el movimiento; el criterio de si una ejecucion es aceptable es el de la ficha clinica.",
+  "ejercicios": {
+    "C01": {
+      "id": "C01",
+      "ejercicio": "puente_de_gluteos",
+      "grupo": "cadera",
+      "tipo": "dinamico",
+      "postura": "supino",
+      "articulacion_objetivo": "cadera",
+      "articulacion_medida": "cadera",
+      "movimiento": "flexion",
+      "plano": "sagital",
+      "senal": "flexion",
+      "bilateral": true,
+      "lado_trabajado": "bilateral",
+      "alineado_con_camara": "parcial",
+      "desalineacion_grados": "16.2",
+      "medible_goniometricamente": true,
+      "rom_esperado_min": "0",
+      "rom_esperado_max": "30",
+      "tolerancia_rom": "5",
+      "tempo_esperado": "3-1-3",
+      "criterio_ejecucion": "pelvis estable sin rotacion;elevacion completa de cadera",
+      "errores_esperables": [
+        "hiperextension lumbar"
+      ],
+      "compensaciones": [
+        "extension excesiva de rodilla"
+      ],
+      "validado_por": "PT",
+      "repeticiones_observadas": 7,
+      "sentido": "desciende",
+      "banda_observada": {
+        "flex_min_p25": 18.0,
+        "flex_max_p75": 50.0,
+        "rom_mediano": 24.5,
+        "rom_p25": 23.8,
+        "rom_p75": 28.9
+      },
+      "umbrales": {
+        "bajo": 27.6,
+        "alto": 40.4,
+        "prominencia_minima": 10.0
+      },
+      "duracion_esperada_s": {
+        "p25": 6.9,
+        "mediana": 7.5,
+        "p75": 9.2
+      },
+      "tronco_mediano_grados": 14.7
+    },
+    "C02": {
+      "id": "C02",
+      "ejercicio": "clamshell",
+      "grupo": "cadera",
+      "tipo": "dinamico",
+      "postura": "decubito_lateral",
+      "articulacion_objetivo": "cadera",
+      "articulacion_medida": "cadera",
+      "movimiento": "abduccion",
+      "plano": "frontal",
+      "senal": "abduccion",
+      "bilateral": false,
+      "lado_trabajado": "derecho",
+      "alineado_con_camara": "si",
+      "desalineacion_grados": "11.3",
+      "medible_goniometricamente": true,
+      "rom_esperado_min": "0",
+      "rom_esperado_max": "45",
+      "tolerancia_rom": "5",
+      "tempo_esperado": "2-1-2",
+      "criterio_ejecucion": "rodillas separadas sin rotacion pelvica",
+      "errores_esperables": [
+        "rotacion de tronco"
+      ],
+      "compensaciones": [
+        "flexion de cadera compensatoria"
+      ],
+      "validado_por": "PT",
+      "repeticiones_observadas": 7,
+      "sentido": "desciende",
+      "banda_observada": {
+        "flex_min_p25": 0.0,
+        "flex_max_p75": 36.1,
+        "rom_mediano": 36.1,
+        "rom_p25": 33.0,
+        "rom_p75": 36.1
+      },
+      "umbrales": {
+        "bajo": 10.8,
+        "alto": 25.3,
+        "prominencia_minima": 12.6
+      },
+      "duracion_esperada_s": {
+        "p25": 7.3,
+        "mediana": 7.7,
+        "p75": 10.6
+      },
+      "tronco_mediano_grados": 3.6
+    },
+    "C03": {
+      "id": "C03",
+      "ejercicio": "elevacion_lateral_de_pierna",
+      "grupo": "cadera",
+      "tipo": "dinamico",
+      "postura": "decubito_lateral",
+      "articulacion_objetivo": "cadera",
+      "articulacion_medida": "cadera",
+      "movimiento": "abduccion",
+      "plano": "frontal",
+      "senal": "abduccion",
+      "bilateral": false,
+      "lado_trabajado": "derecho",
+      "alineado_con_camara": "si",
+      "desalineacion_grados": "7.4",
+      "medible_goniometricamente": true,
+      "rom_esperado_min": "0",
+      "rom_esperado_max": "60",
+      "tolerancia_rom": "5",
+      "tempo_esperado": "2-1-2",
+      "criterio_ejecucion": "pierna recta sin rotacion;tronco estable",
+      "errores_esperables": [
+        "rotacion de cadera"
+      ],
+      "compensaciones": [
+        "flexion de rodilla"
+      ],
+      "validado_por": "PT",
+      "repeticiones_observadas": 8,
+      "sentido": "desciende",
+      "banda_observada": {
+        "flex_min_p25": 0.0,
+        "flex_max_p75": 23.0,
+        "rom_mediano": 21.2,
+        "rom_p25": 20.2,
+        "rom_p75": 23.0
+      },
+      "umbrales": {
+        "bajo": 6.9,
+        "alto": 16.1,
+        "prominencia_minima": 10.0
+      },
+      "duracion_esperada_s": {
+        "p25": 6.2,
+        "mediana": 6.4,
+        "p75": 6.9
+      },
+      "tronco_mediano_grados": 2.8
+    },
+    "C04": {
+      "id": "C04",
+      "ejercicio": "rotacion_de_cadera",
+      "grupo": "cadera",
+      "tipo": "dinamico",
+      "postura": "supino",
+      "articulacion_objetivo": "cadera",
+      "articulacion_medida": "cadera",
+      "movimiento": "rotacion",
+      "plano": "transversal",
+      "senal": "flexion",
+      "bilateral": true,
+      "lado_trabajado": "bilateral",
+      "alineado_con_camara": "parcial",
+      "desalineacion_grados": "12.7",
+      "medible_goniometricamente": true,
+      "rom_esperado_min": "0",
+      "rom_esperado_max": "45",
+      "tolerancia_rom": "5",
+      "tempo_esperado": "3-1-3",
+      "criterio_ejecucion": "control de rotacion sin compensacion lumbar",
+      "errores_esperables": [
+        "rotacion lumbar excesiva"
+      ],
+      "compensaciones": [
+        "flexion de rodilla"
+      ],
+      "validado_por": "PT",
+      "repeticiones_observadas": 7,
+      "sentido": "desciende",
+      "banda_observada": {
+        "flex_min_p25": 19.6,
+        "flex_max_p75": 70.6,
+        "rom_mediano": 36.3,
+        "rom_p25": 31.8,
+        "rom_p75": 39.6
+      },
+      "umbrales": {
+        "bajo": 34.9,
+        "alto": 55.3,
+        "prominencia_minima": 12.7
+      },
+      "duracion_esperada_s": {
+        "p25": 5.0,
+        "mediana": 7.9,
+        "p75": 9.8
+      },
+      "tronco_mediano_grados": 6.4
+    },
+    "C05": {
+      "id": "C05",
+      "ejercicio": "extension_de_rodilla_con_cojin",
+      "grupo": "cadera",
+      "tipo": "dinamico",
+      "postura": "supino",
+      "articulacion_objetivo": "rodilla",
+      "articulacion_medida": "rodilla",
+      "movimiento": "extension",
+      "plano": "sagital",
+      "senal": "flexion",
+      "bilateral": false,
+      "lado_trabajado": "alterno",
+      "alineado_con_camara": "parcial",
+      "desalineacion_grados": "17.4",
+      "medible_goniometricamente": true,
+      "rom_esperado_min": "0",
+      "rom_esperado_max": "90",
+      "tolerancia_rom": "5",
+      "tempo_esperado": "3-1-3",
+      "criterio_ejecucion": "extension completa sin dolor;control de velocidad",
+      "errores_esperables": [
+        "extension incompleta"
+      ],
+      "compensaciones": [
+        "rotacion de tibia"
+      ],
+      "validado_por": "PT",
+      "repeticiones_observadas": 7,
+      "sentido": "asciende",
+      "banda_observada": {
+        "flex_min_p25": 18.9,
+        "flex_max_p75": 105.0,
+        "rom_mediano": 52.5,
+        "rom_p25": 40.0,
+        "rom_p75": 69.8
+      },
+      "umbrales": {
+        "bajo": 44.7,
+        "alto": 79.2,
+        "prominencia_minima": 18.4
+      },
+      "duracion_esperada_s": {
+        "p25": 5.2,
+        "mediana": 6.0,
+        "p75": 8.7
+      },
+      "tronco_mediano_grados": 1.8
+    },
+    "C06": {
+      "id": "C06",
+      "ejercicio": "flexion_de_cadera",
+      "grupo": "cadera",
+      "tipo": "dinamico",
+      "postura": "supino",
+      "articulacion_objetivo": "cadera",
+      "articulacion_medida": "cadera",
+      "movimiento": "flexion",
+      "plano": "sagital",
+      "senal": "flexion",
+      "bilateral": false,
+      "lado_trabajado": "alterno",
+      "alineado_con_camara": "si",
+      "desalineacion_grados": "10.5",
+      "medible_goniometricamente": true,
+      "rom_esperado_min": "0",
+      "rom_esperado_max": "90",
+      "tolerancia_rom": "5",
+      "tempo_esperado": "2-1-2",
+      "criterio_ejecucion": "control de flexion sin rotacion pelvica",
+      "errores_esperables": [
+        "rotacion de pelvis"
+      ],
+      "compensaciones": [
+        "extension de rodilla compensatoria"
+      ],
+      "validado_por": "PT",
+      "repeticiones_observadas": 3,
+      "sentido": "asciende",
+      "banda_observada": {
+        "flex_min_p25": 12.4,
+        "flex_max_p75": 85.0,
+        "rom_mediano": 67.7,
+        "rom_p25": 67.2,
+        "rom_p75": 72.1
+      },
+      "umbrales": {
+        "bajo": 34.2,
+        "alto": 63.2,
+        "prominencia_minima": 23.7
+      },
+      "duracion_esperada_s": {
+        "p25": 9.5,
+        "mediana": 11.8,
+        "p75": 11.9
+      },
+      "tronco_mediano_grados": 3.9
+    },
+    "C07": {
+      "id": "C07",
+      "ejercicio": "estiramiento_recto_anterior",
+      "grupo": "cadera",
+      "tipo": "sostenido",
+      "postura": "prono",
+      "articulacion_objetivo": "cadera",
+      "articulacion_medida": "rodilla",
+      "movimiento": "flexion",
+      "plano": "sagital",
+      "senal": "flexion",
+      "bilateral": false,
+      "lado_trabajado": "alterno",
+      "alineado_con_camara": "parcial",
+      "desalineacion_grados": "13.1",
+      "medible_goniometricamente": true,
+      "rom_esperado_min": "0",
+      "rom_esperado_max": "120",
+      "tolerancia_rom": "10",
+      "tempo_esperado": "30s hold",
+      "criterio_ejecucion": "talón cerca de glúteo;sin dolor",
+      "errores_esperables": [
+        "flexion incompleta"
+      ],
+      "compensaciones": [
+        "rotacion de cadera"
+      ],
+      "validado_por": "PT",
+      "repeticiones_observadas": 9,
+      "sentido": "asciende",
+      "banda_observada": {
+        "flex_min_p25": 6.8,
+        "flex_max_p75": 40.5,
+        "rom_mediano": 7.6,
+        "rom_p25": 6.4,
+        "rom_p75": 7.9
+      },
+      "umbrales": {
+        "bajo": 16.9,
+        "alto": 30.4,
+        "prominencia_minima": 10.0
+      },
+      "duracion_esperada_s": {
+        "p25": 9.1,
+        "mediana": 9.3,
+        "p75": 14.0
+      },
+      "tronco_mediano_grados": 2.7
+    },
+    "C08": {
+      "id": "C08",
+      "ejercicio": "dead_bug",
+      "grupo": "cadera",
+      "tipo": "dinamico",
+      "postura": "supino",
+      "articulacion_objetivo": "cadera",
+      "articulacion_medida": "cadera",
+      "movimiento": "flexion",
+      "plano": "sagital",
+      "senal": "flexion",
+      "bilateral": false,
+      "lado_trabajado": "alterno",
+      "alineado_con_camara": "si",
+      "desalineacion_grados": "4.9",
+      "medible_goniometricamente": true,
+      "rom_esperado_min": "0",
+      "rom_esperado_max": "90",
+      "tolerancia_rom": "5",
+      "tempo_esperado": "3-1-3",
+      "criterio_ejecucion": "lumbar estable en suelo;movimiento controlado",
+      "errores_esperables": [
+        "arqueamiento lumbar"
+      ],
+      "compensaciones": [
+        "extension rapida de rodilla"
+      ],
+      "validado_por": "PT",
+      "repeticiones_observadas": 8,
+      "sentido": "desciende",
+      "banda_observada": {
+        "flex_min_p25": 33.7,
+        "flex_max_p75": 98.0,
+        "rom_mediano": 50.1,
+        "rom_p25": 26.4,
+        "rom_p75": 63.7
+      },
+      "umbrales": {
+        "bajo": 53.0,
+        "alto": 78.7,
+        "prominencia_minima": 17.5
+      },
+      "duracion_esperada_s": {
+        "p25": 5.4,
+        "mediana": 6.0,
+        "p75": 7.4
+      },
+      "tronco_mediano_grados": 2.4
+    },
+    "C09": {
+      "id": "C09",
+      "ejercicio": "extension_de_cadera_en_cuadrupedia",
+      "grupo": "cadera",
+      "tipo": "dinamico",
+      "postura": "cuadrupedia",
+      "articulacion_objetivo": "cadera",
+      "articulacion_medida": "cadera",
+      "movimiento": "extension",
+      "plano": "sagital",
+      "senal": "flexion",
+      "bilateral": false,
+      "lado_trabajado": "alterno",
+      "alineado_con_camara": "si",
+      "desalineacion_grados": "8.0",
+      "medible_goniometricamente": true,
+      "rom_esperado_min": "0",
+      "rom_esperado_max": "30",
+      "tolerancia_rom": "5",
+      "tempo_esperado": "2-1-2",
+      "criterio_ejecucion": "cadera sin rotacion;tronco estable",
+      "errores_esperables": [
+        "rotacion de cadera"
+      ],
+      "compensaciones": [
+        "extension lumbar compensatoria"
+      ],
+      "validado_por": "PT",
+      "repeticiones_observadas": 1,
+      "sentido": null,
+      "banda_observada": null,
+      "umbrales": null,
+      "aviso": "Sin repeticiones suficientes en el dataset (1). El conteo en vivo no tiene banda de referencia medida para este ejercicio."
+    },
+    "C10": {
+      "id": "C10",
+      "ejercicio": "apertura_lateral_en_cuadrupedia",
+      "grupo": "cadera",
+      "tipo": "dinamico",
+      "postura": "cuadrupedia",
+      "articulacion_objetivo": "cadera",
+      "articulacion_medida": "cadera",
+      "movimiento": "abduccion",
+      "plano": "frontal",
+      "senal": "abduccion",
+      "bilateral": false,
+      "lado_trabajado": "alterno",
+      "alineado_con_camara": "parcial",
+      "desalineacion_grados": "12.9",
+      "medible_goniometricamente": true,
+      "rom_esperado_min": "0",
+      "rom_esperado_max": "45",
+      "tolerancia_rom": "5",
+      "tempo_esperado": "2-1-2",
+      "criterio_ejecucion": "rodilla flexionada 90°;sin rotacion de tronco",
+      "errores_esperables": [
+        "rotacion de tronco"
+      ],
+      "compensaciones": [
+        "extension de cadera"
+      ],
+      "validado_por": "PT",
+      "repeticiones_observadas": 5,
+      "sentido": "asciende",
+      "banda_observada": {
+        "flex_min_p25": 0.0,
+        "flex_max_p75": 16.3,
+        "rom_mediano": 14.9,
+        "rom_p25": 14.8,
+        "rom_p75": 16.3
+      },
+      "umbrales": {
+        "bajo": 4.9,
+        "alto": 11.4,
+        "prominencia_minima": 10.0
+      },
+      "duracion_esperada_s": {
+        "p25": 4.8,
+        "mediana": 5.0,
+        "p75": 5.6
+      },
+      "tronco_mediano_grados": 2.9
+    },
+    "R01": {
+      "id": "R01",
+      "ejercicio": "extension_flexion_de_rodilla",
+      "grupo": "rodilla",
+      "tipo": "dinamico",
+      "postura": "supino",
+      "articulacion_objetivo": "rodilla",
+      "articulacion_medida": "rodilla",
+      "movimiento": "flexion",
+      "plano": "sagital",
+      "senal": "flexion",
+      "bilateral": false,
+      "lado_trabajado": "alterno",
+      "alineado_con_camara": "no",
+      "desalineacion_grados": "27.0",
+      "medible_goniometricamente": false,
+      "rom_esperado_min": "0",
+      "rom_esperado_max": "135",
+      "tolerancia_rom": "5",
+      "tempo_esperado": "2-1-2",
+      "criterio_ejecucion": "extension completa 0°;flexion maxima sin dolor",
+      "errores_esperables": [
+        "extension incompleta"
+      ],
+      "compensaciones": [
+        "rotacion de tibia"
+      ],
+      "validado_por": "PT",
+      "repeticiones_observadas": 14,
+      "sentido": "asciende",
+      "banda_observada": {
+        "flex_min_p25": 34.7,
+        "flex_max_p75": 121.7,
+        "rom_mediano": 82.7,
+        "rom_p25": 81.0,
+        "rom_p75": 84.3
+      },
+      "umbrales": {
+        "bajo": 60.8,
+        "alto": 95.6,
+        "prominencia_minima": 28.9
+      },
+      "duracion_esperada_s": {
+        "p25": 2.9,
+        "mediana": 3.0,
+        "p75": 3.1
+      },
+      "tronco_mediano_grados": 1.3
+    },
+    "R02": {
+      "id": "R02",
+      "ejercicio": "elevacion_de_pierna_recta",
+      "grupo": "rodilla",
+      "tipo": "dinamico",
+      "postura": "supino",
+      "articulacion_objetivo": "rodilla",
+      "articulacion_medida": "cadera",
+      "movimiento": "flexion",
+      "plano": "sagital",
+      "senal": "flexion",
+      "bilateral": false,
+      "lado_trabajado": "alterno",
+      "alineado_con_camara": "si",
+      "desalineacion_grados": "10.6",
+      "medible_goniometricamente": true,
+      "rom_esperado_min": "0",
+      "rom_esperado_max": "45",
+      "tolerancia_rom": "5",
+      "tempo_esperado": "3-1-3",
+      "criterio_ejecucion": "pierna recta;control de bajada",
+      "errores_esperables": [
+        "flexion de rodilla"
+      ],
+      "compensaciones": [
+        "rotacion de cadera"
+      ],
+      "validado_por": "PT",
+      "repeticiones_observadas": 13,
+      "sentido": "desciende",
+      "banda_observada": {
+        "flex_min_p25": 6.3,
+        "flex_max_p75": 92.8,
+        "rom_mediano": 84.2,
+        "rom_p25": 48.4,
+        "rom_p75": 85.7
+      },
+      "umbrales": {
+        "bajo": 32.2,
+        "alto": 66.8,
+        "prominencia_minima": 29.5
+      },
+      "duracion_esperada_s": {
+        "p25": 2.9,
+        "mediana": 3.5,
+        "p75": 3.9
+      },
+      "tronco_mediano_grados": 2.0
+    },
+    "R03": {
+      "id": "R03",
+      "ejercicio": "abduccion_de_cadera_en_decubito",
+      "grupo": "rodilla",
+      "tipo": "dinamico",
+      "postura": "semisentado",
+      "articulacion_objetivo": "cadera",
+      "articulacion_medida": "cadera",
+      "movimiento": "abduccion",
+      "plano": "frontal",
+      "senal": "abduccion",
+      "bilateral": false,
+      "lado_trabajado": "alterno",
+      "alineado_con_camara": "parcial",
+      "desalineacion_grados": "12.4",
+      "medible_goniometricamente": true,
+      "rom_esperado_min": "0",
+      "rom_esperado_max": "60",
+      "tolerancia_rom": "5",
+      "tempo_esperado": "2-1-2",
+      "criterio_ejecucion": "pierna recta;tronco estable",
+      "errores_esperables": [
+        "rotacion de tronco"
+      ],
+      "compensaciones": [
+        "flexion de rodilla"
+      ],
+      "validado_por": "PT",
+      "repeticiones_observadas": 0,
+      "sentido": null,
+      "banda_observada": null,
+      "umbrales": null,
+      "aviso": "Sin repeticiones suficientes en el dataset (0). El conteo en vivo no tiene banda de referencia medida para este ejercicio."
+    },
+    "R04": {
+      "id": "R04",
+      "ejercicio": "hip_thrust",
+      "grupo": "rodilla",
+      "tipo": "dinamico",
+      "postura": "supino",
+      "articulacion_objetivo": "cadera",
+      "articulacion_medida": "cadera",
+      "movimiento": "extension",
+      "plano": "sagital",
+      "senal": "flexion",
+      "bilateral": true,
+      "lado_trabajado": "bilateral",
+      "alineado_con_camara": "no",
+      "desalineacion_grados": "22.2",
+      "medible_goniometricamente": false,
+      "rom_esperado_min": "0",
+      "rom_esperado_max": "30",
+      "tolerancia_rom": "5",
+      "tempo_esperado": "2-1-2",
+      "criterio_ejecucion": "elevacion completa de cadera;alineacion tronco-muslo",
+      "errores_esperables": [
+        "hiperextension lumbar"
+      ],
+      "compensaciones": [
+        "extension incompleta de cadera"
+      ],
+      "validado_por": "PT",
+      "repeticiones_observadas": 5,
+      "sentido": "desciende",
+      "banda_observada": {
+        "flex_min_p25": 8.3,
+        "flex_max_p75": 95.8,
+        "rom_mediano": 73.2,
+        "rom_p25": 73.2,
+        "rom_p75": 81.5
+      },
+      "umbrales": {
+        "bajo": 34.5,
+        "alto": 69.5,
+        "prominencia_minima": 25.6
+      },
+      "duracion_esperada_s": {
+        "p25": 2.7,
+        "mediana": 5.1,
+        "p75": 7.5
+      },
+      "tronco_mediano_grados": 27.7
+    },
+    "R05": {
+      "id": "R05",
+      "ejercicio": "extension_de_rodilla_en_prono",
+      "grupo": "rodilla",
+      "tipo": "dinamico",
+      "postura": "bipedestacion",
+      "articulacion_objetivo": "rodilla",
+      "articulacion_medida": "rodilla",
+      "movimiento": "flexion",
+      "plano": "sagital",
+      "senal": "flexion",
+      "bilateral": false,
+      "lado_trabajado": "alterno",
+      "alineado_con_camara": "si",
+      "desalineacion_grados": "9.7",
+      "medible_goniometricamente": true,
+      "rom_esperado_min": "0",
+      "rom_esperado_max": "120",
+      "tolerancia_rom": "5",
+      "tempo_esperado": "3-1-3",
+      "criterio_ejecucion": "flexion maxima;control de bajada",
+      "errores_esperables": [
+        "flexion incompleta"
+      ],
+      "compensaciones": [
+        "rotacion de cadera"
+      ],
+      "validado_por": "PT",
+      "repeticiones_observadas": 15,
+      "sentido": "desciende",
+      "banda_observada": {
+        "flex_min_p25": 9.1,
+        "flex_max_p75": 113.8,
+        "rom_mediano": 94.3,
+        "rom_p25": 65.3,
+        "rom_p75": 102.6
+      },
+      "umbrales": {
+        "bajo": 40.5,
+        "alto": 82.4,
+        "prominencia_minima": 33.0
+      },
+      "duracion_esperada_s": {
+        "p25": 2.7,
+        "mediana": 4.9,
+        "p75": 5.9
+      },
+      "tronco_mediano_grados": 6.8
+    },
+    "R06": {
+      "id": "R06",
+      "ejercicio": "flexion_de_rodilla_al_pecho",
+      "grupo": "rodilla",
+      "tipo": "dinamico",
+      "postura": "bipedestacion",
+      "articulacion_objetivo": "rodilla",
+      "articulacion_medida": "rodilla",
+      "movimiento": "flexion",
+      "plano": "sagital",
+      "senal": "flexion",
+      "bilateral": false,
+      "lado_trabajado": "alterno",
+      "alineado_con_camara": "si",
+      "desalineacion_grados": "9.0",
+      "medible_goniometricamente": true,
+      "rom_esperado_min": "0",
+      "rom_esperado_max": "120",
+      "tolerancia_rom": "5",
+      "tempo_esperado": "2-1-2",
+      "criterio_ejecucion": "rodilla cerca del pecho;sin dolor",
+      "errores_esperables": [
+        "flexion incompleta"
+      ],
+      "compensaciones": [
+        "rotacion de cadera"
+      ],
+      "validado_por": "PT",
+      "repeticiones_observadas": 15,
+      "sentido": "desciende",
+      "banda_observada": {
+        "flex_min_p25": 16.7,
+        "flex_max_p75": 123.3,
+        "rom_mediano": 102.1,
+        "rom_p25": 93.2,
+        "rom_p75": 105.9
+      },
+      "umbrales": {
+        "bajo": 48.7,
+        "alto": 91.3,
+        "prominencia_minima": 35.7
+      },
+      "duracion_esperada_s": {
+        "p25": 5.1,
+        "mediana": 5.7,
+        "p75": 6.5
+      },
+      "tronco_mediano_grados": 17.7
+    },
+    "R07": {
+      "id": "R07",
+      "ejercicio": "sentadilla_con_peso_muerto",
+      "grupo": "rodilla",
+      "tipo": "dinamico",
+      "postura": "bipedestacion",
+      "articulacion_objetivo": "rodilla",
+      "articulacion_medida": "rodilla",
+      "movimiento": "flexion",
+      "plano": "sagital",
+      "senal": "flexion",
+      "bilateral": true,
+      "lado_trabajado": "bilateral",
+      "alineado_con_camara": "si",
+      "desalineacion_grados": "11.3",
+      "medible_goniometricamente": true,
+      "rom_esperado_min": "0",
+      "rom_esperado_max": "90",
+      "tolerancia_rom": "5",
+      "tempo_esperado": "3-1-3",
+      "criterio_ejecucion": "espalda recta;rodillas sobre pies",
+      "errores_esperables": [
+        "flexion excesiva de tronco"
+      ],
+      "compensaciones": [
+        "valgo de rodilla"
+      ],
+      "validado_por": "PT",
+      "repeticiones_observadas": 4,
+      "sentido": "desciende",
+      "banda_observada": {
+        "flex_min_p25": 10.8,
+        "flex_max_p75": 40.2,
+        "rom_mediano": 24.5,
+        "rom_p25": 21.2,
+        "rom_p75": 26.3
+      },
+      "umbrales": {
+        "bajo": 19.6,
+        "alto": 31.3,
+        "prominencia_minima": 10.0
+      },
+      "duracion_esperada_s": {
+        "p25": 5.8,
+        "mediana": 6.3,
+        "p75": 6.6
+      },
+      "tronco_mediano_grados": 75.0
+    },
+    "R08": {
+      "id": "R08",
+      "ejercicio": "sentadilla_profunda",
+      "grupo": "rodilla",
+      "tipo": "dinamico",
+      "postura": "bipedestacion",
+      "articulacion_objetivo": "rodilla",
+      "articulacion_medida": "rodilla",
+      "movimiento": "flexion",
+      "plano": "sagital",
+      "senal": "flexion",
+      "bilateral": true,
+      "lado_trabajado": "bilateral",
+      "alineado_con_camara": "parcial",
+      "desalineacion_grados": "15.2",
+      "medible_goniometricamente": true,
+      "rom_esperado_min": "0",
+      "rom_esperado_max": "120",
+      "tolerancia_rom": "5",
+      "tempo_esperado": "3-1-3",
+      "criterio_ejecucion": "control de profundidad;alineacion de rodilla",
+      "errores_esperables": [
+        "flexion excesiva sin control"
+      ],
+      "compensaciones": [
+        "valgo de rodilla"
+      ],
+      "validado_por": "PT",
+      "repeticiones_observadas": 3,
+      "sentido": "desciende",
+      "banda_observada": {
+        "flex_min_p25": 13.2,
+        "flex_max_p75": 80.7,
+        "rom_mediano": 67.5,
+        "rom_p25": 67.2,
+        "rom_p75": 67.5
+      },
+      "umbrales": {
+        "bajo": 33.5,
+        "alto": 60.5,
+        "prominencia_minima": 23.6
+      },
+      "duracion_esperada_s": {
+        "p25": 5.8,
+        "mediana": 6.0,
+        "p75": 6.5
+      },
+      "tronco_mediano_grados": 57.2
+    },
+    "R09": {
+      "id": "R09",
+      "ejercicio": "sentadilla_bulgara",
+      "grupo": "rodilla",
+      "tipo": "dinamico",
+      "postura": "bipedestacion",
+      "articulacion_objetivo": "rodilla",
+      "articulacion_medida": "rodilla",
+      "movimiento": "flexion",
+      "plano": "sagital",
+      "senal": "flexion",
+      "bilateral": false,
+      "lado_trabajado": "alterno",
+      "alineado_con_camara": "no",
+      "desalineacion_grados": "20.3",
+      "medible_goniometricamente": false,
+      "rom_esperado_min": "0",
+      "rom_esperado_max": "90",
+      "tolerancia_rom": "5",
+      "tempo_esperado": "3-1-3",
+      "criterio_ejecucion": "rodilla delantera estable;tronco recto",
+      "errores_esperables": [
+        "flexion excesiva de tronco"
+      ],
+      "compensaciones": [
+        "valgo de rodilla delantera"
+      ],
+      "validado_por": "PT",
+      "repeticiones_observadas": 5,
+      "sentido": "desciende",
+      "banda_observada": {
+        "flex_min_p25": 5.7,
+        "flex_max_p75": 89.2,
+        "rom_mediano": 67.9,
+        "rom_p25": 67.8,
+        "rom_p75": 71.1
+      },
+      "umbrales": {
+        "bajo": 30.8,
+        "alto": 64.1,
+        "prominencia_minima": 23.8
+      },
+      "duracion_esperada_s": {
+        "p25": 3.3,
+        "mediana": 5.1,
+        "p75": 5.6
+      },
+      "tronco_mediano_grados": 27.5
+    },
+    "R10": {
+      "id": "R10",
+      "ejercicio": "equilibrio_monopodal",
+      "grupo": "rodilla",
+      "tipo": "sostenido",
+      "postura": "bipedestacion",
+      "articulacion_objetivo": "rodilla",
+      "articulacion_medida": "rodilla",
+      "movimiento": "flexion",
+      "plano": "sagital",
+      "senal": "flexion",
+      "bilateral": false,
+      "lado_trabajado": "alterno",
+      "alineado_con_camara": "parcial",
+      "desalineacion_grados": "15.0",
+      "medible_goniometricamente": true,
+      "rom_esperado_min": "0",
+      "rom_esperado_max": "30",
+      "tolerancia_rom": "5",
+      "tempo_esperado": "30s hold",
+      "criterio_ejecucion": "estabilidad sin oscilacion excesiva;alineacion",
+      "errores_esperables": [
+        "oscilacion excesiva"
+      ],
+      "compensaciones": [
+        "valgo dinámico"
+      ],
+      "validado_por": "PT",
+      "repeticiones_observadas": 0,
+      "sentido": null,
+      "banda_observada": null,
+      "umbrales": null,
+      "aviso": "Sin repeticiones suficientes en el dataset (0). El conteo en vivo no tiene banda de referencia medida para este ejercicio."
+    }
+  }
+}

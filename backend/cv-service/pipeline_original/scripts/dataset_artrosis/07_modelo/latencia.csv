@@ -1,0 +1,5 @@
+id,complejidad_pose,ejercicio_esperado,fotogramas,predicciones,aciertos,pct_acierto,pred_en_tanda,pct_acierto_en_tanda,pred_fuera_de_tanda,pct_acierto_fuera,pose_ms_p50,features_red_ms_p50,total_ms_p50,total_ms_p95,fps_sostenible
+C01,2,puente_de_gluteos,300,271,101,37.3,58,0.0,213,47.4,183.1,2.0,185.1,726.1,5.4
+R06,2,flexion_de_rodilla_al_pecho,300,265,156,58.9,263,59.3,2,0.0,181.8,2.0,183.8,725.6,5.4
+R08,2,sentadilla_profunda,300,210,85,40.5,170,29.4,40,87.5,186.3,2.0,188.3,815.1,5.3
+C03,2,elevacion_lateral_de_pierna,300,271,70,25.8,54,3.7,217,31.3,204.1,2.2,206.3,834.4,4.8

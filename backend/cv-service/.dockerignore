@@ -1,0 +1,9 @@
+.venv
+__pycache__
+*.pyc
+tests/
+LEEME.md
+filas_c01.json
+trazo_c01.json
+fisioclin_lstm.tflite
+fisioclin_scaler.npz

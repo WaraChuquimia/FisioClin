@@ -1,0 +1,52 @@
+{
+ "ejercicios": [
+  "abduccion_de_cadera_en_decubito",
+  "apertura_lateral_en_cuadrupedia",
+  "clamshell",
+  "dead_bug",
+  "elevacion_de_pierna_recta",
+  "elevacion_lateral_de_pierna",
+  "equilibrio_monopodal",
+  "estiramiento_recto_anterior",
+  "extension_de_cadera_en_cuadrupedia",
+  "extension_de_rodilla_con_cojin",
+  "extension_de_rodilla_en_prono",
+  "extension_flexion_de_rodilla",
+  "flexion_de_cadera",
+  "flexion_de_rodilla_al_pecho",
+  "hip_thrust",
+  "puente_de_gluteos",
+  "rotacion_de_cadera",
+  "sentadilla_bulgara",
+  "sentadilla_con_peso_muerto",
+  "sentadilla_profunda"
+ ],
+ "grupos": [
+  "cadera",
+  "rodilla"
+ ],
+ "calidad": [
+  "CORRECTA",
+  "DUDOSA",
+  "INCORRECTA"
+ ],
+ "features": [
+  "flex_cadera_medido",
+  "flex_cadera_contra",
+  "flex_rodilla_medido",
+  "flex_rodilla_contra",
+  "flex_tobillo_medido",
+  "flex_tobillo_contra",
+  "abd_cadera_medido",
+  "abd_cadera_contra",
+  "inclinacion_tronco",
+  "vel_cadera_medido",
+  "vel_rodilla_medido",
+  "vel_abd_medido",
+  "visibilidad",
+  "contra_presente"
+ ],
+ "hz": 10.0,
+ "ventana_s": 3.0,
+ "paso_s": 1.0
+}

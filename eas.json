@@ -1,0 +1,40 @@
+{
+  "cli": {
+    "version": ">= 17.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://ukjsbywrltiuqdawrnye.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY": "sb_publishable_Wcmh84seU_FrcVhoNWvQkg_Qqk9m2nu",
+        "EXPO_PUBLIC_CV_URL": "wss://PENDIENTE-cambiar-tras-desplegar-backend/ws"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://ukjsbywrltiuqdawrnye.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY": "sb_publishable_Wcmh84seU_FrcVhoNWvQkg_Qqk9m2nu",
+        "EXPO_PUBLIC_CV_URL": "wss://PENDIENTE-cambiar-tras-desplegar-backend/ws"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

@@ -1,0 +1,88 @@
+id,escena,motivo
+C02,C02_E001,tanda de 0.4 s
+C02,C02_E003,sin excursion suficiente (max 0.4 grados)
+C02,C02_E008,tanda de 0.6 s
+C03,C03_E001,sin excursion suficiente (max 4.0 grados)
+C03,C03_E005,sin excursion suficiente (max 7.1 grados)
+C04,C04_E003,tanda de 1.0 s
+C04,C04_E004,tanda de 1.1 s
+C05,C05_E001,tanda de 2.0 s
+C05,C05_E002,tanda de 2.4 s
+C05,C05_E005,sin excursion suficiente (max 2.5 grados)
+C05,C05_E006,sin excursion suficiente (max 1.0 grados)
+C06,C06_E002,tanda de 1.7 s
+C06,C06_E004,sin excursion suficiente (max 1.8 grados)
+C08,C08_E004,sin excursion suficiente (max 0.4 grados)
+C09,C09_E005,tanda de 1.9 s
+C10,C10_E001,sin excursion suficiente (max 2.6 grados)
+R01,R01_E002,sin excursion suficiente (max 0.0 grados)
+R01,R01_E003,sin excursion suficiente (max 0.0 grados)
+R01,R01_E004,sin excursion suficiente (max 0.0 grados)
+R01,R01_E005,sin excursion suficiente (max 0.0 grados)
+R01,R01_E006,sin senal de flexion de rodilla
+R01,R01_E007,sin excursion suficiente (max 0.0 grados)
+R01,R01_E009,sin excursion suficiente (max 0.0 grados)
+R01,R01_E010,sin excursion suficiente (max 0.0 grados)
+R01,R01_E011,sin excursion suficiente (max 0.0 grados)
+R01,R01_E012,sin excursion suficiente (max 0.0 grados)
+R01,R01_E013,sin excursion suficiente (max 0.0 grados)
+R01,R01_E014,sin senal de flexion de rodilla
+R01,R01_E015,sin excursion suficiente (max 0.0 grados)
+R01,R01_E016,sin senal de flexion de rodilla
+R01,R01_E017,sin senal de flexion de rodilla
+R01,R01_E019,sin senal de flexion de rodilla
+R01,R01_E020,sin senal de flexion de rodilla
+R01,R01_E021,sin senal de flexion de rodilla
+R01,R01_E022,sin senal de flexion de rodilla
+R01,R01_E023,sin senal de flexion de rodilla
+R01,R01_E024,sin senal de flexion de rodilla
+R01,R01_E025,sin senal de flexion de rodilla
+R01,R01_E026,sin senal de flexion de rodilla
+R01,R01_E027,sin senal de flexion de rodilla
+R01,R01_E028,sin senal de flexion de rodilla
+R02,R02_E003,sin excursion suficiente (max 0.0 grados)
+R02,R02_E005,sin excursion suficiente (max 0.0 grados)
+R02,R02_E006,sin excursion suficiente (max 0.0 grados)
+R02,R02_E013,sin senal de flexion de cadera
+R03,R03_E001,sin excursion suficiente (max 4.4 grados)
+R03,R03_E003,sin excursion suficiente (max 0.0 grados)
+R03,R03_E004,tanda de 2.0 s
+R03,R03_E005,sin excursion suficiente (max 4.7 grados)
+R03,R03_E007,tanda de 1.1 s
+R03,R03_E007,tanda de 2.8 s
+R03,R03_E008,sin excursion suficiente (max 6.7 grados)
+R03,R03_E011,sin senal de abduccion de cadera
+R03,R03_E013,sin excursion suficiente (max 6.7 grados)
+R03,R03_E014,sin excursion suficiente (max 5.4 grados)
+R03,R03_E015,sin excursion suficiente (max 5.0 grados)
+R03,R03_E017,sin excursion suficiente (max 3.9 grados)
+R03,R03_E018,sin excursion suficiente (max 5.5 grados)
+R04,R04_E006,sin excursion suficiente (max 0.0 grados)
+R05,R05_E002,sin excursion suficiente (max 0.0 grados)
+R05,R05_E004,sin excursion suficiente (max 0.0 grados)
+R05,R05_E008,sin excursion suficiente (max 0.0 grados)
+R05,R05_E013,sin senal de flexion de rodilla
+R05,R05_E015,sin excursion suficiente (max 0.0 grados)
+R05,R05_E016,tanda de 1.8 s
+R05,R05_E018,sin excursion suficiente (max 0.0 grados)
+R06,R06_E001,sin excursion suficiente (max 3.4 grados)
+R06,R06_E003,sin excursion suficiente (max 0.0 grados)
+R06,R06_E008,sin senal de flexion de rodilla
+R06,R06_E014,sin excursion suficiente (max 0.0 grados)
+R06,R06_E017,sin senal de flexion de rodilla
+R07,R07_E001,tanda de 1.5 s
+R07,R07_E003,sin excursion suficiente (max 0.0 grados)
+R07,R07_E004,tanda de 0.7 s
+R07,R07_E004,tanda de 0.0 s
+R07,R07_E010,sin excursion suficiente (max 0.0 grados)
+R08,R08_E002,sin excursion suficiente (max 7.1 grados)
+R08,R08_E006,sin excursion suficiente (max 0.0 grados)
+R08,R08_E010,sin excursion suficiente (max 0.0 grados)
+R08,R08_E011,sin senal de flexion de rodilla
+R08,R08_E015,tanda de 2.1 s
+R09,R09_E001,tanda de 2.5 s
+R09,R09_E007,tanda de 2.2 s
+R09,R09_E009,sin excursion suficiente (max 0.0 grados)
+R10,R10_E001,tanda de 0.9 s
+R10,R10_E003,sin senal de flexion de rodilla
+R10,R10_E005,tanda de 1.9 s

@@ -1,0 +1,51 @@
+{
+ "nota": "z = (x - media) / desviacion, por feature, antes de entrar al LSTM.",
+ "features": [
+  "flex_cadera_medido",
+  "flex_cadera_contra",
+  "flex_rodilla_medido",
+  "flex_rodilla_contra",
+  "flex_tobillo_medido",
+  "flex_tobillo_contra",
+  "abd_cadera_medido",
+  "abd_cadera_contra",
+  "inclinacion_tronco",
+  "vel_cadera_medido",
+  "vel_rodilla_medido",
+  "vel_abd_medido",
+  "visibilidad",
+  "contra_presente"
+ ],
+ "media": [
+  45.0533829,
+  21.6132183,
+  62.8294106,
+  31.1493969,
+  58.5584641,
+  24.4776402,
+  7.8755412,
+  6.4199486,
+  70.3180542,
+  0.3516515,
+  -2.3394959,
+  -0.0482965,
+  0.9476361,
+  0.4992584
+ ],
+ "desviacion": [
+  29.2603607,
+  25.0137672,
+  40.753746,
+  42.813652,
+  18.5793037,
+  30.0195065,
+  8.9785185,
+  10.0522957,
+  40.4483032,
+  28.2676678,
+  53.887001,
+  13.2221613,
+  0.0721168,
+  0.5000191
+ ]
+}

@@ -1,0 +1,21 @@
+id,grupo,titulo,duracion_s,n_escenas,duracion_media_escena_s,pct_pose,pct_cuerpo_completo,segundos_movimiento,pct_movimiento,segundos_retencion,escenas_movimiento,escenas_mixtas,escenas_quieto_de_pie,escenas_sin_persona,vista_dominante,postura_dominante,caras_max,escenas_2_caras
+C01,cadera,PUENTE,110.87,7,15.9,100.0,50.4,43.0,38.8,3.5,3,3,0,0,perfil,horizontal,1,0
+C02,cadera,LA CONCHA LADO DERECHO,120.0,8,15.0,100.0,73.3,50.0,41.7,53.0,3,0,0,0,frontal,horizontal,1,0
+C03,cadera,PATADA LATERAL LADO DERECHO,98.87,5,19.8,100.0,82.3,46.5,47.0,44.0,2,0,0,0,frontal,horizontal,1,0
+C04,cadera,TWIST,141.8,7,20.3,100.0,85.9,40.5,28.6,49.5,2,3,0,0,perfil,horizontal,1,0
+C05,cadera,EXTENSION DE CUADRICEPS CON COJIN,131.07,6,21.9,100.0,79.9,32.0,24.4,67.0,1,1,0,0,frontal,horizontal,1,0
+C06,cadera,PSOAS Y RECTO ANTERIOR,79.33,4,19.9,100.0,98.1,10.5,13.2,30.0,1,1,0,0,perfil,horizontal,1,0
+C07,cadera,RECTO ANTERIOR,159.37,7,22.8,100.0,75.2,25.0,15.7,85.5,1,2,0,0,perfil,horizontal,1,0
+C08,cadera,EL BICHO MUERTO,111.97,4,28.0,100.0,72.8,8.5,7.6,96.5,1,0,0,0,perfil,horizontal,1,0
+C09,cadera,EXTENSION DE CADERA POR EL SUELO EN CUADRUPEDIA,78.13,6,13.1,99.4,89.2,4.5,5.8,70.5,1,0,0,1,oblicua,horizontal,1,0
+C10,cadera,APERTURA DE CADERA EN CUADRUPEDIA,84.27,4,21.1,100.0,81.1,0.0,0.0,84.5,0,0,0,0,oblicua,horizontal,2,1
+R01,rodilla,EXTENSION Y FLEXION,88.17,14,6.3,91.0,65.5,62.0,70.3,0,5,0,1,1,perfil,horizontal,1,0
+R02,rodilla,SUBIMOS Y BAJAMOS LA PIENA,74.73,10,7.5,80.7,62.0,36.5,48.8,0,2,0,2,2,perfil,horizontal,1,0
+R03,rodilla,ELEVACION LATERAL DE PIERNA TUMBADO,176.8,14,12.6,99.7,46.6,29.0,16.4,110.5,3,1,0,0,frontal,inclinada,1,0
+R04,rodilla,HIP THRUST,111.73,8,14.0,75.0,66.5,62.5,55.9,0,3,1,0,4,frontal,horizontal,1,0
+R05,rodilla,LEVANTAMIENTO HACIA ATRAS,134.63,19,7.1,95.5,68.9,75.5,56.1,0,10,0,4,0,perfil,vertical,1,0
+R06,rodilla,ELEVACION DE RODILLA HACIA EL PECHO,129.43,16,8.1,89.2,78.0,78.5,60.7,0,9,0,3,1,perfil,vertical,1,0
+R07,rodilla,SENTADILLA CON PESO MUERTO,127.83,12,10.7,94.9,62.9,112.0,87.6,0,11,0,0,0,oblicua,vertical,2,2
+R08,rodilla,SENTADI PROFUNDA,71.2,14,5.1,97.2,67.8,62.5,87.8,0,9,0,1,1,perfil,vertical,1,0
+R09,rodilla,SENTADILLLA BULGARA,149.83,16,9.4,97.3,83.7,122.5,81.8,0,15,0,1,0,oblicua,vertical,2,1
+R10,rodilla,EQUILIBRIO,43.57,9,4.9,93.2,63.6,18.0,41.3,10.0,3,0,1,1,oblicua,vertical,1,0

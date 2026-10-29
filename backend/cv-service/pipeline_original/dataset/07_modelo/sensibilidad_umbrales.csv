@@ -1,0 +1,11 @@
+umbral,valor_base,variacion,valor_nuevo,veredictos_cambiados,pct_cambiado
+RAZON_DEJADO_CAER,1.5,-20 %,1.2,10,7.4
+RAZON_DEJADO_CAER,1.5,+20 %,1.8,6,4.4
+RAZON_BRUSCO,0.55,-20 %,0.44,4,2.9
+RAZON_BRUSCO,0.55,+20 %,0.66,6,4.4
+DESVIO_TEMPO,0.5,-20 %,0.4,14,10.3
+DESVIO_TEMPO,0.5,+20 %,0.6,9,6.6
+FACTOR_TRONCO,2.0,-20 %,1.6,6,4.4
+FACTOR_TRONCO,2.0,+20 %,2.4,0,0.0
+ASIMETRIA_MAX,0.5,-20 %,0.4,2,1.5
+ASIMETRIA_MAX,0.5,+20 %,0.6,0,0.0

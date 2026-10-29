@@ -1,0 +1,44 @@
+id,columna,valor_original,valor_corregido,motivo,evidencia
+C01,alineado_con_camara,no,parcial,desalineacion medida entre el angulo metrico y el proyectado,16.2 grados
+C02,plano_movimiento,sagital,frontal,definicion anatomica del movimiento,una abduccion ocurre en el plano frontal
+C02,alineado_con_camara,no,si,desalineacion medida entre el angulo metrico y el proyectado,11.3 grados
+C03,plano_movimiento,sagital,frontal,definicion anatomica del movimiento,una abduccion ocurre en el plano frontal
+C03,alineado_con_camara,no,si,desalineacion medida entre el angulo metrico y el proyectado,7.4 grados
+C04,alineado_con_camara,no,parcial,desalineacion medida entre el angulo metrico y el proyectado,12.7 grados
+C05,alineado_con_camara,no,parcial,desalineacion medida entre el angulo metrico y el proyectado,17.4 grados
+C05,postura_declarada,sentado,supino,verificado mirando un fotograma del video,"t=111,5 s: tumbado boca arriba con las piernas sobre un cojin"
+C05,lado_trabajado,bilateral,alterno,los dos lados no recorren su angulo a la vez,correlacion entre lados -0.24
+C06,alineado_con_camara,no,si,desalineacion medida entre el angulo metrico y el proyectado,10.5 grados
+C06,lado_trabajado,bilateral,alterno,los dos lados no recorren su angulo a la vez,correlacion entre lados -0.57
+C07,articulacion_medida,cadera,rodilla,el angulo declarado describe otra articulacion,angulo_a_medir = flexion rodilla 0-120°
+C07,alineado_con_camara,no,parcial,desalineacion medida entre el angulo metrico y el proyectado,13.1 grados
+C07,tipo,estatico,sostenido,sinonimo normalizado al vocabulario del dataset,
+C07,lado_trabajado,bilateral,alterno,los dos lados no recorren su angulo a la vez,correlacion entre lados -0.97
+C08,alineado_con_camara,no,si,desalineacion medida entre el angulo metrico y el proyectado,4.9 grados
+C08,lado_trabajado,bilateral,alterno,los dos lados no recorren su angulo a la vez,correlacion entre lados -0.28
+C09,alineado_con_camara,no,si,desalineacion medida entre el angulo metrico y el proyectado,8.0 grados
+C09,lado_trabajado,bilateral,alterno,los dos lados no recorren su angulo a la vez,correlacion entre lados -0.07
+C10,plano_movimiento,sagital,frontal,definicion anatomica del movimiento,una abduccion ocurre en el plano frontal
+C10,alineado_con_camara,no,parcial,desalineacion medida entre el angulo metrico y el proyectado,12.9 grados
+C10,lado_trabajado,bilateral,alterno,los dos lados no recorren su angulo a la vez,correlacion entre lados -0.62
+R01,postura_declarada,sentado,supino,verificado mirando un fotograma del video,"t=21,8 s: tumbada boca arriba, puente de gluteos"
+R01,lado_trabajado,bilateral,alterno,los dos lados no recorren su angulo a la vez,correlacion entre lados +0.34
+R02,articulacion_medida,rodilla,cadera,el angulo declarado describe otra articulacion,angulo_a_medir = flexion cadera 0-45°
+R02,alineado_con_camara,no,si,desalineacion medida entre el angulo metrico y el proyectado,10.6 grados
+R02,lado_trabajado,bilateral,alterno,los dos lados no recorren su angulo a la vez,correlacion entre lados +0.41
+R03,plano_movimiento,sagital,frontal,definicion anatomica del movimiento,una abduccion ocurre en el plano frontal
+R03,alineado_con_camara,no,parcial,desalineacion medida entre el angulo metrico y el proyectado,12.4 grados
+R03,postura_declarada,decubito lateral,semisentado,el video muestra otra postura,tronco medido inclinada
+R03,lado_trabajado,bilateral,alterno,los dos lados no recorren su angulo a la vez,correlacion entre lados -0.38
+R05,alineado_con_camara,no,si,desalineacion medida entre el angulo metrico y el proyectado,9.7 grados
+R05,postura_declarada,decubito prono,bipedestacion,el video muestra otra postura,tronco medido vertical
+R05,lado_trabajado,bilateral,alterno,los dos lados no recorren su angulo a la vez,correlacion entre lados -0.41
+R06,alineado_con_camara,no,si,desalineacion medida entre el angulo metrico y el proyectado,9.0 grados
+R06,postura_declarada,decubito supino,bipedestacion,el video muestra otra postura,tronco medido vertical
+R06,lado_trabajado,bilateral,alterno,los dos lados no recorren su angulo a la vez,correlacion entre lados -0.49
+R07,alineado_con_camara,no,si,desalineacion medida entre el angulo metrico y el proyectado,11.3 grados
+R08,alineado_con_camara,no,parcial,desalineacion medida entre el angulo metrico y el proyectado,15.2 grados
+R09,lado_trabajado,bilateral,alterno,los dos lados no recorren su angulo a la vez,correlacion entre lados -0.20
+R10,alineado_con_camara,no,parcial,desalineacion medida entre el angulo metrico y el proyectado,15.0 grados
+R10,tipo,estatico,sostenido,sinonimo normalizado al vocabulario del dataset,
+R10,lado_trabajado,bilateral,alterno,los dos lados no recorren su angulo a la vez,correlacion entre lados -0.54

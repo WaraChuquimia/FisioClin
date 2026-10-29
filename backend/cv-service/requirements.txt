@@ -1,0 +1,21 @@
+# Versiones probadas en el equipo de desarrollo (Python 3.11, Windows).
+#
+# Las dos fijas no son capricho: mediapipe 0.10.x esta compilado contra la
+# ABI de numpy 1.x y revienta al importar con numpy 2. Si instalas otra
+# version de mediapipe, comprueba primero que numpy le sirve.
+numpy==1.26.4
+mediapipe==0.10.9
+
+fastapi
+# Subida de videos en POST /analizar-video.
+python-multipart
+uvicorn[standard]
+opencv-python-headless
+
+# Lee el texto del carnet en /ocr/carnet (ocr_carnet.py).
+rapidocr-onnxruntime
+
+# Solo para las pruebas de paridad (tests/verificar_paridad.py), que
+# comparan el LSTM en JavaScript contra el interprete de TFLite. El
+# servicio en si NO carga TensorFlow: la inferencia corre en el telefono.
+# tensorflow==2.17.1

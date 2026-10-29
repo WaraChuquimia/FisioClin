@@ -30,7 +30,19 @@ yarn-error.*
 .DS_Store
 *.pem
 
+# Windows
+desktop.ini
+
+# Python (backend/cv-service)
+__pycache__/
+*.pyc
+.venv/
+
+# metadata local del CLI de Supabase
+supabase/.temp/
+
 # local env files
+.env
 .env*.local
 
 # typescript
